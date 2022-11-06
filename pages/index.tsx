@@ -6,8 +6,8 @@ import { ConnectButton} from "@rainbow-me/rainbowkit";
 import { useAccount } from 'wagmi';
 import { ethers } from 'ethers';
 
-import tweet from "./data/tweet"
-import tweetData from './data/type';
+import tweet from "../data/tweet"
+import tweetData from '../data/type';
 import { useEffect, useState } from 'react';
 import contractAddress from "../const/address.json";
 import abi from "../const/abi.json";
@@ -65,9 +65,9 @@ export default function Home() {
   const tweetListPage = (): JSX.Element => {
     return (
         <div className={styles.grid}>
-          {priority.map((v)=>{
+          {priority.map((v, index)=>{
               return (
-                <div className={styles.card}>
+                <div className={styles.card} key={index}>
                   <p>
                     {tweet[v].content}
                   </p>
