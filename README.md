@@ -20,6 +20,7 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 ## Web3twitter-Mock
 - 使用したtech stacks: 
+  - 準同型暗号
   - フロント:
     - 言語：TypeScript
     - ライブラリ：React
