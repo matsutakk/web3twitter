@@ -1,22 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## プロジェクト概要
+ユーザーのコンテンツ視聴履歴を、プライバシーを守りながらweb3 social media間で共有し合うためのプロトコル。現状のweb3 social 構築protocol（ex lens、cyberconnect）は、公開しても問題ないユーザー情報をNFT化したりしてportableにしていたが、公開したくない情報もある。そういう非公開情報のなかにはユーザーの趣味趣向を鮮明に写すもの（ex視聴履歴、ブックマーク）がある。
+さて、現状のweb3 socia medialはnetworking としての価値が高いが、今後さらに発展していく上ではコンテンツ体験としての価値が重要になると考えられる。そのためには既存のweb2プラットフォーマーとは違うコンテンツ体験を届けられるような、推薦アルゴリズムを構築するためのデータが必要である。priva3はdapps間を横断して非公開ユーザー情報を集めることで、web2ではなしえないユーザーの趣味趣向に対する理解を実現し、全く違うコンテンツ体験を届ける。
 
 ## Web3twitter-Mock
 - 使用したtech stacks: 
